@@ -1,14 +1,14 @@
 /* The first element: a black background and white text
 The second element: a yellow background
 Both elements: a font size of 28px and a list of fonts containing Helvetica and Times New Roman, with sans-serif as a fallback */
-.b.c {
+.c {
     background-color: black;
     color: white;
 }
-.b.n {
+.n {
     background-color: yellow;
 }
-.b {
+.c , .n {
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
 }
