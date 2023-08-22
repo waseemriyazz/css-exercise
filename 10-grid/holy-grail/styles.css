@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 5fr 1fr ;
+    gap: 16px;
+    
+}
+.header {
+    border: solid;
+    border-radius: 10px;
+    grid-area:1/1/2/3 ;/* rs/cs/re/ce*/
+    text-align: center;
+}
+.sidebar {
+    border: solid;
+    border-radius: 10px;
+    grid-area: 2/1/5/2;
+    text-align: center;
+    padding-top: 110%;
+}
+.nav {
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    grid-area: 2/2/3/3;
+}
+.article{
+    border: solid;
+    border-radius: 10px;
+    grid-area: 3/2/5/3;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    grid-area: 5/1/6/3;
+
+}
+
